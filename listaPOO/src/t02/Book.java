@@ -1,18 +1,18 @@
 package t02;
 
 public class Book {
-private String name;
+private String title;
 private int year;
 private int edition;
 private Publisher publisher;
-private Writter writter;
+private Author author;
 
-Book (String name, int year, int edition, Publisher publisher, Writter writter){
-	this.name = name;
+Book (String title, int year, int edition, Publisher publisher, Author author){
+	this.title = title;
 	this.year = year;
 	this.edition = edition;
 	this.publisher = publisher;
-	this.writter = writter;
+	this.author = author;
 	
 }
 
@@ -24,20 +24,20 @@ Book (String name, int year, int edition, Publisher publisher, Writter writter){
 		this.publisher = publisher;
 	}
 
-	public Writter getWritter() {
-		return writter;
+	public Author getAuthor() {
+		return author;
 	}
 
-	public void setWritter(Writter writter) {
-		this.writter = writter;
+	public void setAuthor(Author author) {
+		this.author = author;
 	}
 
-	public String getName() {
-	return name;
+	public String getTitle() {
+	return title;
 }
 
-public void setName(String name) {
-	this.name = name;
+public void setTitle(String title) {
+	this.title = title;
 }
 
 public int getYear() {
