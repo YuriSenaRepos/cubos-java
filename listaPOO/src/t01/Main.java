@@ -1,4 +1,4 @@
-package q01;
+package t01;
 
 public class Main {
 

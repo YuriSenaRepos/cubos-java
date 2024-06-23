@@ -1,4 +1,4 @@
-package q01;
+package t01;
 
 public class Carro {
 	private String model;
@@ -35,7 +35,7 @@ public class Carro {
 
 
 
-	public void setYear(int ano) {
+	public void setYear(int year) {
 		this.year = year;
 	}
 
